@@ -6,7 +6,9 @@ spring:
         service-id: config-server
       name: zuul
       profile: dev
-      
+    inetutils:
+       preferred-networks:
+       - 176.61.1       
 eureka:
   client:
     service-url:
